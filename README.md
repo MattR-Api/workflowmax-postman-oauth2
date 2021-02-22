@@ -82,7 +82,7 @@ If you see a message saying you have no WorkflowMax accounts go back and complet
 
 Once complete you'll be passed back to Postman.
 
-### 6. Set your Access and Refresh Tokens
+### 7. Set your Access and Refresh Tokens
 We now have the last remaining tokens needed to access the Xero API. These need to be set to the Environment Variables, to do this:
 1. Highlight the Access Token
 1. Right-click on it
@@ -92,7 +92,7 @@ Follow the same process for the Refresh Token.
 
 ![Set your Access and Refresh Tokens](images/6_1_setTheAccessAndRefreshTokens.png)
 
-### 7. Find out which tenants (accounts) we are connected to
+### 8. Find out which tenants (accounts) we are connected to
 
 1. Double-click on the GET Connections request
 1. Click Send
@@ -102,12 +102,12 @@ Follow the same process for the Refresh Token.
 
 Congrats! You're now authenticated and can start making API calls. Your access token will last for 12mins, after which time you'll need to refresh the token.
 
-### 8. Make your first API call!
+### 9. Make your first API call!
 1. Double-click to load the GET Invoices request
 1. Ensure No Auth is set on the Authorization tab
 1. Click Send
 
-### 9. Refreshing the token
+### 10. Refreshing the token
 1. Double-click to load the POST Refresh token request
 1. Ensure No Auth is set on the Authorization tab
 1. Click Send
